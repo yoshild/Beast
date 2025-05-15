@@ -47,7 +47,3 @@ Ce script effectue une attaque par brute-force sur un cookie de session (par exe
 
     Un serveur de test vulnérable à TLS 1.0 sur https://37.187.103.134:8443/
 
-# Fonctionnement
-1. Créé le réseau avec le script `create-nework.sh`
-2. Build tous les docker
-3. Lancé dans l'ordre les docker stunnel-client, mitmproxy puis python-script
